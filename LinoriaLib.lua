@@ -2980,7 +2980,7 @@ function Library:CreateWindow(...)
                     end;
                 end;
 
-                BoxOuter.Size = UDim2.new(1, 0, 0, 10 + Size + 2);
+                BoxOuter.Size = UDim2.new(0, 192, 0, 189 + Size + 2);
             end;
 
             Groupbox.Container = Container;
